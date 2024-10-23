@@ -14,6 +14,6 @@ ADD . /app
 # Install dependencies
 RUN npm install
 # Start the app
-CMD npm start
+CMD ["npm", "start"]
 # Expose port 3000 to the outside world
 EXPOSE 3000
